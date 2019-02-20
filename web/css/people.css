@@ -1,0 +1,391 @@
+body{
+	max-width: 1440px;
+	width:100%
+	height: 3000px;
+	
+}
+
+
+.header{
+	
+	height: 100px;
+	width: 100%;
+	max-width: 992px;
+}
+
+img.headerimg {
+  max-width: 100%;
+  height: auto;
+  width: 150px;
+  float:left;
+}
+
+#chart-container{
+  
+  max-width: 100%;
+  width: 400px;
+  max-height: 500px;
+  float: left;
+  padding: 10px 10px 10px 10px;
+  margin: 0 auto;
+  height: auto;
+  position: absolute;
+
+}
+
+#barChart{
+	max-width: 100%;
+	width: 800px
+	height:400px;
+	margin-top: 10px;
+}
+
+.demographics{
+	float:left;
+	max-width: 250px;
+	width:100%;
+	margin-left: 685px;
+	border: 1px line black;
+	height: auto;
+	position: absolute;
+	margin-top: 50px;
+
+}
+
+.region{
+
+	padding: 10px 10px 10px 10px;
+	margin: 10px 10px 10px 10px;
+	float: left;
+	height: auto;
+	width:  250px ;
+	max-width:100%;
+
+}
+
+img.map{
+	 max-width: 100%;
+	 height: auto;
+	 width: 200px;
+	 float:left;
+	 padding: 10px 10px 10px 10px;
+}
+
+div.clientinfo{
+	position: static;
+	height:auto;
+	padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    float:left;
+    width: 250px;
+    max-width: 100%;
+}
+
+div.detailexpenses{
+	        position: absolute;
+    height: auto;
+    padding: 5px 5px 5px 5px;
+    margin-top: -5px;
+    float: left;
+    top: 110%;
+    width: 800px;
+
+}
+
+div.img_src{
+	height: auto;
+	width: 100%;
+	padding: 5px 5px 5px 5px;
+	max-width: 100%;
+	width: 70px;
+}
+
+div.img_logo{
+	    height: 100px;
+    padding: 5px 5px 5px 5px;
+    width: 900px;
+    max-width: 100%;
+    top: -100px;
+	
+}
+
+
+img.clientLogo{
+	height: 50px;
+    width: 60px;
+    padding: 5px 5px 5px 5px;
+}
+
+
+img.clientLogo_1{
+	height: 85px;
+    width: 85px;
+    padding: 20px 30px 20px 20px;
+    float: left;
+
+}
+
+div.img_Labels{
+	position: relative;
+	height: auto;
+	padding: 5px 5px 5px 5px;
+	max-width: 100%;
+	width: 100px;
+	float:left;
+	margin-top: -400px;
+	margin-left: 100px;
+}
+
+div.img_Labels_1{
+	position: absolute;
+	height: auto;
+	padding: 5px 0px 5px 5px;
+	max-width: 100%;
+	width: 900px;
+	float:left;
+
+
+}
+
+.label{
+	color: #4E82D8;
+    font-family: "Lucida Console";
+    font-size: 1.8em;
+    padding: 20px 50px 13px 20px;
+    float: left;
+    font-weight: normal;
+}
+
+.label_1{
+	    color: #4E82D8;
+    font-family: "Lucida Console";
+    font-size: 1.8em;
+    padding: 10px 25px 22px 20px;
+    float: left;
+    font-weight: normal;
+	
+	
+}
+.headerlabel{
+	color: #4E82D8;
+    font-family: "Lucida Console";
+    font-size: 3.0em;
+    font-weight: normal;
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    float: left;
+    padding: 10px 10px 10px 20px;
+    margin-left: 10px;
+
+	
+}
+.maplabel{
+	color: #4E82D8;
+    font-family: "Lucida Console";
+    font-size: 1.5em;
+    font-weight: bold;
+    position: absolute;
+    float: left;
+    width: 100%;
+    margin-left: -230px;
+    top: 35%;
+
+}
+
+.user {
+  display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.userlabel {
+	    color: #4E82D8;
+    font-family: "Lucida Console";
+    font-size: 1.7em;
+    font-weight: normal;
+    width: 10px;
+    height: 10px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.userdiv{
+	float: left;
+    margin-left: 650px;
+    height: auto;
+    width: 400px;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body{
+	max-width: 992px;
+	width:100%
+	
+	background-color: blue;
+
+}
+
+.header{
+	max-width: 992px;
+}
+
+#chart-container{
+	width: 500px;
+}
+
+.demographics{
+	margin-left: 675px;
+	
+
+}
+
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body{
+	max-width: 1200px;
+	width:100%
+	background-color: green;
+
+}
+
+.header{
+	max-width: 1200px;
+}
+
+
+.demographics{
+	margin-left: 675px;
+    max-width: 300px;
+}
+#chart-container{
+	width: 900px;
+}
+
+
+
+
+} 
+
+@media only screen and (min-width: 1005px) {
+  .demographics{
+       margin-left: 900px;
+       max-width: 300px;
+  	}
+}
+
+@media only screen and (min-width: 1100px) {
+  .demographics{
+           margin-left: 1000px;
+    max-width: 300px;
+    margin-top: -300px;
+  	}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body{
+	max-width: 1900px;
+	width:100%
+	
+	background-color: black;
+
+}
+
+.header{
+	max-width: 1900px;
+}
+
+img {
+  width: 250px;
+}
+
+
+.demographics{
+	    margin-left: 1180px;
+    max-width: 300px;
+    margin-top: -420px;
+}
+
+#chart-container{
+	width: 1000px;
+}
+
+.userdiv{
+	margin-left: 800px;
+}
+
+div.detailexpenses {
+
+    margin-top: -60px;
+    
+    width: 1000px;
+	margin-left: 75px;
+}
+img.clientLogo_1 {
+    height: 70px;
+    width: 70px;
+    padding: 20px 80px 20px 10px;
+    float: left;
+}
+
+div.img_logo {
+    height: 100px;
+    padding: 5px 5px 5px 5px;
+    width: 1000px;
+    max-width: 100%;
+    top: -100px;
+
+}
+.label_1 {
+    color: #4E82D8;
+    font-family: "Lucida Console";
+    font-size: 1.8em;
+    padding: 10px 45px 22px 20px;
+    float: left;
+    font-weight: normal;
+}
+.maplabel {
+    color: #4E82D8;
+    font-family: "Lucida Console";
+    font-size: 1.3em;
+    font-weight: bold;
+    position: absolute;
+    float: left;
+    max-width: 100%;
+	width: 350px;
+    margin-left: -230px;
+    top: 38%;
+	
+}
+
+element.style {
+}
+
+.label {
+   
+    padding: 20px 50px 20px 20px;
+  
+}
+div.clientinfo {
+  
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+}
